@@ -1,0 +1,3370 @@
+{
+    "depGraph": {
+      "schemaVersion": "1.2.0",
+      "pkgManager": {
+        "name": "maven"
+      },
+      "pkgs": [
+        {
+          "id": "//heartbeat:main@bazel",
+          "info": {
+            "name": "//heartbeat:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "meta-common-packages@meta",
+          "info": {
+            "name": "meta-common-packages",
+            "version": "meta"
+          }
+        },
+        {
+          "id": "//feature_flag:main@bazel",
+          "info": {
+            "name": "//feature_flag:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//feature_flag:details@bazel",
+          "info": {
+            "name": "//feature_flag:details",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//database:enums@bazel",
+          "info": {
+            "name": "//database:enums",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "com.google.code.findbugs:jsr305@3.0.2",
+          "info": {
+            "name": "com.google.code.findbugs:jsr305",
+            "version": "3.0.2"
+          }
+        },
+        {
+          "id": "//globals:main@bazel",
+          "info": {
+            "name": "//globals:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//lambda:main@bazel",
+          "info": {
+            "name": "//lambda:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//utils/exceptions:main@bazel",
+          "info": {
+            "name": "//utils/exceptions:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "com.google.guava:guava@25.1-jre",
+          "info": {
+            "name": "com.google.guava:guava",
+            "version": "25.1-jre"
+          }
+        },
+        {
+          "id": "com.google.errorprone:error_prone_annotations@2.13.1",
+          "info": {
+            "name": "com.google.errorprone:error_prone_annotations",
+            "version": "2.13.1"
+          }
+        },
+        {
+          "id": "com.google.j2objc:j2objc-annotations@1.3",
+          "info": {
+            "name": "com.google.j2objc:j2objc-annotations",
+            "version": "1.3"
+          }
+        },
+        {
+          "id": "org.checkerframework:checker-qual@3.22.0",
+          "info": {
+            "name": "org.checkerframework:checker-qual",
+            "version": "3.22.0"
+          }
+        },
+        {
+          "id": "org.codehaus.mojo:animal-sniffer-annotations@1.21",
+          "info": {
+            "name": "org.codehaus.mojo:animal-sniffer-annotations",
+            "version": "1.21"
+          }
+        },
+        {
+          "id": "//logger:fivetran_logger@bazel",
+          "info": {
+            "name": "//logger:fivetran_logger",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//json:main@bazel",
+          "info": {
+            "name": "//json:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "@com_fasterxml_jackson_dataformat_jackson_dataformat_csv//:main@bazel",
+          "info": {
+            "name": "@com_fasterxml_jackson_dataformat_jackson_dataformat_csv//:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-annotations@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.core:jackson-annotations",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-core@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.core:jackson-core",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-databind@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.core:jackson-databind",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "//utils/time:main@bazel",
+          "info": {
+            "name": "//utils/time:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//warehouses/common:warehouse_type@bazel",
+          "info": {
+            "name": "//warehouses/common:warehouse_type",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//crypto:main@bazel",
+          "info": {
+            "name": "//crypto:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//jwt:main@bazel",
+          "info": {
+            "name": "//jwt:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "commons-codec:commons-codec@1.10",
+          "info": {
+            "name": "commons-codec:commons-codec",
+            "version": "1.10"
+          }
+        },
+        {
+          "id": "com.amazonaws:aws-encryption-sdk-java@1.6.1",
+          "info": {
+            "name": "com.amazonaws:aws-encryption-sdk-java",
+            "version": "1.6.1"
+          }
+        },
+        {
+          "id": "org.apache.commons:commons-lang3@3.12.0",
+          "info": {
+            "name": "org.apache.commons:commons-lang3",
+            "version": "3.12.0"
+          }
+        },
+        {
+          "id": "org.bouncycastle:bcprov-ext-jdk15on@1.70",
+          "info": {
+            "name": "org.bouncycastle:bcprov-ext-jdk15on",
+            "version": "1.70"
+          }
+        },
+        {
+          "id": "com.google.api:gax@2.3.0",
+          "info": {
+            "name": "com.google.api:gax",
+            "version": "2.3.0"
+          }
+        },
+        {
+          "id": "com.google.auth:google-auth-library-oauth2-http@0.22.0",
+          "info": {
+            "name": "com.google.auth:google-auth-library-oauth2-http",
+            "version": "0.22.0"
+          }
+        },
+        {
+          "id": "com.google.http-client:google-http-client@1.39.2",
+          "info": {
+            "name": "com.google.http-client:google-http-client",
+            "version": "1.39.2"
+          }
+        },
+        {
+          "id": "org.apache.httpcomponents:httpcore@4.4.13",
+          "info": {
+            "name": "org.apache.httpcomponents:httpcore",
+            "version": "4.4.13"
+          }
+        },
+        {
+          "id": "org.apache.httpcomponents:httpclient@4.5.13",
+          "info": {
+            "name": "org.apache.httpcomponents:httpclient",
+            "version": "4.5.13"
+          }
+        },
+        {
+          "id": "commons-logging:commons-logging@1.2",
+          "info": {
+            "name": "commons-logging:commons-logging",
+            "version": "1.2"
+          }
+        },
+        {
+          "id": "io.opencensus:opencensus-contrib-http-util@0.11.1",
+          "info": {
+            "name": "io.opencensus:opencensus-contrib-http-util",
+            "version": "0.11.1"
+          }
+        },
+        {
+          "id": "io.opencensus:opencensus-api@0.12.3",
+          "info": {
+            "name": "io.opencensus:opencensus-api",
+            "version": "0.12.3"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-context@1.32.2",
+          "info": {
+            "name": "io.grpc:grpc-context",
+            "version": "1.32.2"
+          }
+        },
+        {
+          "id": "com.google.auto.value:auto-value-annotations@1.9",
+          "info": {
+            "name": "com.google.auto.value:auto-value-annotations",
+            "version": "1.9"
+          }
+        },
+        {
+          "id": "com.google.http-client:google-http-client-jackson2@1.35.0",
+          "info": {
+            "name": "com.google.http-client:google-http-client-jackson2",
+            "version": "1.35.0"
+          }
+        },
+        {
+          "id": "com.google.auth:google-auth-library-credentials@0.9.1",
+          "info": {
+            "name": "com.google.auth:google-auth-library-credentials",
+            "version": "0.9.1"
+          }
+        },
+        {
+          "id": "com.google.api:api-common@1.9.0",
+          "info": {
+            "name": "com.google.api:api-common",
+            "version": "1.9.0"
+          }
+        },
+        {
+          "id": "javax.annotation:javax.annotation-api@1.3.2",
+          "info": {
+            "name": "javax.annotation:javax.annotation-api",
+            "version": "1.3.2"
+          }
+        },
+        {
+          "id": "org.threeten:threetenbp@1.3.3",
+          "info": {
+            "name": "org.threeten:threetenbp",
+            "version": "1.3.3"
+          }
+        },
+        {
+          "id": "com.google.api:gax-grpc@2.3.0",
+          "info": {
+            "name": "com.google.api:gax-grpc",
+            "version": "2.3.0"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-stub@1.32.2",
+          "info": {
+            "name": "io.grpc:grpc-stub",
+            "version": "1.32.2"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-api@1.32.2",
+          "info": {
+            "name": "io.grpc:grpc-api",
+            "version": "1.32.2"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-auth@1.32.2",
+          "info": {
+            "name": "io.grpc:grpc-auth",
+            "version": "1.32.2"
+          }
+        },
+        {
+          "id": "com.google.api.grpc:proto-google-common-protos@1.15.0",
+          "info": {
+            "name": "com.google.api.grpc:proto-google-common-protos",
+            "version": "1.15.0"
+          }
+        },
+        {
+          "id": "com.google.protobuf:protobuf-java@3.18.2",
+          "info": {
+            "name": "com.google.protobuf:protobuf-java",
+            "version": "3.18.2"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-alts@1.46.0",
+          "info": {
+            "name": "io.grpc:grpc-alts",
+            "version": "1.46.0"
+          }
+        },
+        {
+          "id": "org.conscrypt:conscrypt-openjdk-uber@2.5.1",
+          "info": {
+            "name": "org.conscrypt:conscrypt-openjdk-uber",
+            "version": "2.5.1"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-netty-shaded@1.32.2",
+          "info": {
+            "name": "io.grpc:grpc-netty-shaded",
+            "version": "1.32.2"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-core@1.32.2",
+          "info": {
+            "name": "io.grpc:grpc-core",
+            "version": "1.32.2"
+          }
+        },
+        {
+          "id": "com.google.android:annotations@4.1.1.4",
+          "info": {
+            "name": "com.google.android:annotations",
+            "version": "4.1.1.4"
+          }
+        },
+        {
+          "id": "com.google.code.gson:gson@2.9.0",
+          "info": {
+            "name": "com.google.code.gson:gson",
+            "version": "2.9.0"
+          }
+        },
+        {
+          "id": "io.perfmark:perfmark-api@0.25.0",
+          "info": {
+            "name": "io.perfmark:perfmark-api",
+            "version": "0.25.0"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-grpclb@1.46.0",
+          "info": {
+            "name": "io.grpc:grpc-grpclb",
+            "version": "1.46.0"
+          }
+        },
+        {
+          "id": "com.google.protobuf:protobuf-java-util@3.18.2",
+          "info": {
+            "name": "com.google.protobuf:protobuf-java-util",
+            "version": "3.18.2"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-protobuf@1.32.2",
+          "info": {
+            "name": "io.grpc:grpc-protobuf",
+            "version": "1.32.2"
+          }
+        },
+        {
+          "id": "io.grpc:grpc-protobuf-lite@1.32.2",
+          "info": {
+            "name": "io.grpc:grpc-protobuf-lite",
+            "version": "1.32.2"
+          }
+        },
+        {
+          "id": "com.google.protobuf:protobuf-javalite@3.12.0",
+          "info": {
+            "name": "com.google.protobuf:protobuf-javalite",
+            "version": "3.12.0"
+          }
+        },
+        {
+          "id": "com.google.api.grpc:proto-google-cloud-kms-v1@0.61.0",
+          "info": {
+            "name": "com.google.api.grpc:proto-google-cloud-kms-v1",
+            "version": "0.61.0"
+          }
+        },
+        {
+          "id": "com.google.api.grpc:proto-google-iam-v1@0.13.0",
+          "info": {
+            "name": "com.google.api.grpc:proto-google-iam-v1",
+            "version": "0.13.0"
+          }
+        },
+        {
+          "id": "com.google.cloud:google-cloud-kms@1.13.0",
+          "info": {
+            "name": "com.google.cloud:google-cloud-kms",
+            "version": "1.13.0"
+          }
+        },
+        {
+          "id": "com.google.cloud:google-cloud-core-grpc@1.19.0",
+          "info": {
+            "name": "com.google.cloud:google-cloud-core-grpc",
+            "version": "1.19.0"
+          }
+        },
+        {
+          "id": "com.google.cloud:google-cloud-core@1.48.0",
+          "info": {
+            "name": "com.google.cloud:google-cloud-core",
+            "version": "1.48.0"
+          }
+        },
+        {
+          "id": "joda-time:joda-time@2.9.2",
+          "info": {
+            "name": "joda-time:joda-time",
+            "version": "2.9.2"
+          }
+        },
+        {
+          "id": "com.sun.xml.bind:jaxb-core@2.2.11",
+          "info": {
+            "name": "com.sun.xml.bind:jaxb-core",
+            "version": "2.2.11"
+          }
+        },
+        {
+          "id": "com.sun.xml.bind:jaxb-impl@2.2.11",
+          "info": {
+            "name": "com.sun.xml.bind:jaxb-impl",
+            "version": "2.2.11"
+          }
+        },
+        {
+          "id": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6",
+          "info": {
+            "name": "jakarta.ws.rs:jakarta.ws.rs-api",
+            "version": "2.1.6"
+          }
+        },
+        {
+          "id": "javax.xml.bind:jaxb-api@2.2.2",
+          "info": {
+            "name": "javax.xml.bind:jaxb-api",
+            "version": "2.2.2"
+          }
+        },
+        {
+          "id": "javax.activation:activation@1.1",
+          "info": {
+            "name": "javax.activation:activation",
+            "version": "1.1"
+          }
+        },
+        {
+          "id": "javax.xml.stream:stax-api@1.0-2",
+          "info": {
+            "name": "javax.xml.stream:stax-api",
+            "version": "1.0-2"
+          }
+        },
+        {
+          "id": "org.glassfish.hk2.external:jakarta.inject@2.6.1",
+          "info": {
+            "name": "org.glassfish.hk2.external:jakarta.inject",
+            "version": "2.6.1"
+          }
+        },
+        {
+          "id": "//database:flags@bazel",
+          "info": {
+            "name": "//database:flags",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//database:postgresql_jdbc_fix@bazel",
+          "info": {
+            "name": "//database:postgresql_jdbc_fix",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "org.postgresql:postgresql@42.3.3",
+          "info": {
+            "name": "org.postgresql:postgresql",
+            "version": "42.3.3"
+          }
+        },
+        {
+          "id": "//api/db:api_production_datasource@bazel",
+          "info": {
+            "name": "//api/db:api_production_datasource",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//logger:main@bazel",
+          "info": {
+            "name": "//logger:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//secred/client:main@bazel",
+          "info": {
+            "name": "//secred/client:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//crypto:pojos@bazel",
+          "info": {
+            "name": "//crypto:pojos",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//secred/common:main@bazel",
+          "info": {
+            "name": "//secred/common:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//secrets/common:main@bazel",
+          "info": {
+            "name": "//secrets/common:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "com.amazonaws:aws-java-sdk-core@1.12.84",
+          "info": {
+            "name": "com.amazonaws:aws-java-sdk-core",
+            "version": "1.12.84"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "software.amazon.ion:ion-java@1.0.2",
+          "info": {
+            "name": "software.amazon.ion:ion-java",
+            "version": "1.0.2"
+          }
+        },
+        {
+          "id": "//util:main@bazel",
+          "info": {
+            "name": "//util:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "org.yaml:snakeyaml@1.23",
+          "info": {
+            "name": "org.yaml:snakeyaml",
+            "version": "1.23"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.8",
+          "info": {
+            "name": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations",
+            "version": "2.9.8"
+          }
+        },
+        {
+          "id": "com.intellij:annotations@12.0",
+          "info": {
+            "name": "com.intellij:annotations",
+            "version": "12.0"
+          }
+        },
+        {
+          "id": "io.netty:netty-buffer@4.1.50.Final",
+          "info": {
+            "name": "io.netty:netty-buffer",
+            "version": "4.1.50.Final"
+          }
+        },
+        {
+          "id": "io.netty:netty-common@4.1.45.Final",
+          "info": {
+            "name": "io.netty:netty-common",
+            "version": "4.1.45.Final"
+          }
+        },
+        {
+          "id": "javax.xml.soap:javax.xml.soap-api@1.4.0",
+          "info": {
+            "name": "javax.xml.soap:javax.xml.soap-api",
+            "version": "1.4.0"
+          }
+        },
+        {
+          "id": "org.bouncycastle:bcpkix-jdk15on@1.70",
+          "info": {
+            "name": "org.bouncycastle:bcpkix-jdk15on",
+            "version": "1.70"
+          }
+        },
+        {
+          "id": "org.bouncycastle:bcprov-jdk15on@1.70",
+          "info": {
+            "name": "org.bouncycastle:bcprov-jdk15on",
+            "version": "1.70"
+          }
+        },
+        {
+          "id": "org.bouncycastle:bcutil-jdk15on:jar@1.70",
+          "info": {
+            "name": "org.bouncycastle:bcutil-jdk15on:jar",
+            "version": "1.70"
+          }
+        },
+        {
+          "id": "org.bouncycastle:bcprov-jdk15to18@1.70",
+          "info": {
+            "name": "org.bouncycastle:bcprov-jdk15to18",
+            "version": "1.70"
+          }
+        },
+        {
+          "id": "org.glassfish.jersey.core:jersey-client@2.31",
+          "info": {
+            "name": "org.glassfish.jersey.core:jersey-client",
+            "version": "2.31"
+          }
+        },
+        {
+          "id": "org.glassfish.jersey.core:jersey-common@2.31",
+          "info": {
+            "name": "org.glassfish.jersey.core:jersey-common",
+            "version": "2.31"
+          }
+        },
+        {
+          "id": "org.glassfish.hk2:osgi-resource-locator@1.0.3",
+          "info": {
+            "name": "org.glassfish.hk2:osgi-resource-locator",
+            "version": "1.0.3"
+          }
+        },
+        {
+          "id": "jakarta.annotation:jakarta.annotation-api@1.3.5",
+          "info": {
+            "name": "jakarta.annotation:jakarta.annotation-api",
+            "version": "1.3.5"
+          }
+        },
+        {
+          "id": "com.sun.activation:jakarta.activation@2.0.1",
+          "info": {
+            "name": "com.sun.activation:jakarta.activation",
+            "version": "2.0.1"
+          }
+        },
+        {
+          "id": "org.jooq:jool-java-8@0.9.14",
+          "info": {
+            "name": "org.jooq:jool-java-8",
+            "version": "0.9.14"
+          }
+        },
+        {
+          "id": "commons-configuration:commons-configuration@1.10",
+          "info": {
+            "name": "commons-configuration:commons-configuration",
+            "version": "1.10"
+          }
+        },
+        {
+          "id": "commons-lang:commons-lang@2.6",
+          "info": {
+            "name": "commons-lang:commons-lang",
+            "version": "2.6"
+          }
+        },
+        {
+          "id": "org.glassfish.jersey.connectors:jersey-apache-connector@2.31",
+          "info": {
+            "name": "org.glassfish.jersey.connectors:jersey-apache-connector",
+            "version": "2.31"
+          }
+        },
+        {
+          "id": "//secred/util:main@bazel",
+          "info": {
+            "name": "//secred/util:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//database:credential_models@bazel",
+          "info": {
+            "name": "//database:credential_models",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//secrets/services:main@bazel",
+          "info": {
+            "name": "//secrets/services:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "org.json:json@20171018",
+          "info": {
+            "name": "org.json:json",
+            "version": "20171018"
+          }
+        },
+        {
+          "id": "com.zaxxer:HikariCP@3.4.1",
+          "info": {
+            "name": "com.zaxxer:HikariCP",
+            "version": "3.4.1"
+          }
+        },
+        {
+          "id": "org.slf4j:slf4j-api@1.7.13",
+          "info": {
+            "name": "org.slf4j:slf4j-api",
+            "version": "1.7.13"
+          }
+        },
+        {
+          "id": "commons-io:commons-io@2.4",
+          "info": {
+            "name": "commons-io:commons-io",
+            "version": "2.4"
+          }
+        },
+        {
+          "id": "//database:data_sources@bazel",
+          "info": {
+            "name": "//database:data_sources",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "com.mchange:c3p0@0.9.5.1",
+          "info": {
+            "name": "com.mchange:c3p0",
+            "version": "0.9.5.1"
+          }
+        },
+        {
+          "id": "com.mchange:mchange-commons-java@0.2.10",
+          "info": {
+            "name": "com.mchange:mchange-commons-java",
+            "version": "0.2.10"
+          }
+        },
+        {
+          "id": "//database/exceptions:main@bazel",
+          "info": {
+            "name": "//database/exceptions:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//utils/nullability:main@bazel",
+          "info": {
+            "name": "//utils/nullability:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//dockerized/postgres:main@bazel",
+          "info": {
+            "name": "//dockerized/postgres:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//dockerized/common:main@bazel",
+          "info": {
+            "name": "//dockerized/common:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//metal:main@bazel",
+          "info": {
+            "name": "//metal:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "com.amazonaws:aws-java-sdk-logs@1.12.84",
+          "info": {
+            "name": "com.amazonaws:aws-java-sdk-logs",
+            "version": "1.12.84"
+          }
+        },
+        {
+          "id": "com.amazonaws:jmespath-java@1.11.91",
+          "info": {
+            "name": "com.amazonaws:jmespath-java",
+            "version": "1.11.91"
+          }
+        },
+        {
+          "id": "com.amazonaws:aws-java-sdk-resourcegroupstaggingapi@1.12.84",
+          "info": {
+            "name": "com.amazonaws:aws-java-sdk-resourcegroupstaggingapi",
+            "version": "1.12.84"
+          }
+        },
+        {
+          "id": "com.amazonaws:aws-java-sdk-s3@1.12.84",
+          "info": {
+            "name": "com.amazonaws:aws-java-sdk-s3",
+            "version": "1.12.84"
+          }
+        },
+        {
+          "id": "com.amazonaws:aws-java-sdk-kms@1.12.84",
+          "info": {
+            "name": "com.amazonaws:aws-java-sdk-kms",
+            "version": "1.12.84"
+          }
+        },
+        {
+          "id": "//newrelic_utils:donkey_logs_url_builder@bazel",
+          "info": {
+            "name": "//newrelic_utils:donkey_logs_url_builder",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//slack:main@bazel",
+          "info": {
+            "name": "//slack:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "//http:main@bazel",
+          "info": {
+            "name": "//http:main",
+            "version": "bazel"
+          }
+        },
+        {
+          "id": "javax.servlet:javax.servlet-api@3.1.0",
+          "info": {
+            "name": "javax.servlet:javax.servlet-api",
+            "version": "3.1.0"
+          }
+        },
+        {
+          "id": "org.eclipse.jetty:jetty-server@9.4.40.v20210413",
+          "info": {
+            "name": "org.eclipse.jetty:jetty-server",
+            "version": "9.4.40.v20210413"
+          }
+        },
+        {
+          "id": "org.eclipse.jetty:jetty-http@9.4.40.v20210413",
+          "info": {
+            "name": "org.eclipse.jetty:jetty-http",
+            "version": "9.4.40.v20210413"
+          }
+        },
+        {
+          "id": "org.eclipse.jetty:jetty-io@9.4.40.v20210413",
+          "info": {
+            "name": "org.eclipse.jetty:jetty-io",
+            "version": "9.4.40.v20210413"
+          }
+        },
+        {
+          "id": "org.eclipse.jetty:jetty-util@9.4.40.v20210413",
+          "info": {
+            "name": "org.eclipse.jetty:jetty-util",
+            "version": "9.4.40.v20210413"
+          }
+        },
+        {
+          "id": "org.glassfish.hk2:hk2-api@2.6.1",
+          "info": {
+            "name": "org.glassfish.hk2:hk2-api",
+            "version": "2.6.1"
+          }
+        },
+        {
+          "id": "org.glassfish.hk2:hk2-utils@2.6.1",
+          "info": {
+            "name": "org.glassfish.hk2:hk2-utils",
+            "version": "2.6.1"
+          }
+        },
+        {
+          "id": "org.glassfish.hk2.external:aopalliance-repackaged@2.6.1",
+          "info": {
+            "name": "org.glassfish.hk2.external:aopalliance-repackaged",
+            "version": "2.6.1"
+          }
+        },
+        {
+          "id": "org.glassfish.jersey.core:jersey-server@2.31",
+          "info": {
+            "name": "org.glassfish.jersey.core:jersey-server",
+            "version": "2.31"
+          }
+        },
+        {
+          "id": "org.glassfish.jersey.media:jersey-media-jaxb@2.31",
+          "info": {
+            "name": "org.glassfish.jersey.media:jersey-media-jaxb",
+            "version": "2.31"
+          }
+        },
+        {
+          "id": "jakarta.validation:jakarta.validation-api@2.0.2",
+          "info": {
+            "name": "jakarta.validation:jakarta.validation-api",
+            "version": "2.0.2"
+          }
+        },
+        {
+          "id": "jakarta.xml.bind:jakarta.xml.bind-api@3.0.1",
+          "info": {
+            "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+            "version": "3.0.1"
+          }
+        },
+        {
+          "id": "org.glassfish.jersey.inject:jersey-hk2@2.31",
+          "info": {
+            "name": "org.glassfish.jersey.inject:jersey-hk2",
+            "version": "2.31"
+          }
+        },
+        {
+          "id": "org.glassfish.hk2:hk2-locator@2.6.1",
+          "info": {
+            "name": "org.glassfish.hk2:hk2-locator",
+            "version": "2.6.1"
+          }
+        },
+        {
+          "id": "org.javassist:javassist@3.21.0-GA",
+          "info": {
+            "name": "org.javassist:javassist",
+            "version": "3.21.0-GA"
+          }
+        }
+      ],
+      "graph": {
+        "rootNodeId": "//heartbeat:main@bazel",
+        "nodes": [
+          {
+            "nodeId": "//heartbeat:main@bazel",
+            "pkgId": "//heartbeat:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//feature_flag:main@bazel"
+              },
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//logger:main@bazel"
+              },
+              {
+                "nodeId": "//util:main@bazel"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "meta-common-packages@meta"
+              }
+            ]
+          },
+          {
+            "nodeId": "//feature_flag:main@bazel",
+            "pkgId": "//feature_flag:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//feature_flag:details@bazel"
+              },
+              {
+                "nodeId": "//crypto:main@bazel"
+              },
+              {
+                "nodeId": "//database:enums@bazel"
+              },
+              {
+                "nodeId": "//database:flags@bazel"
+              },
+              {
+                "nodeId": "//database/exceptions:main@bazel"
+              },
+              {
+                "nodeId": "//globals:main@bazel"
+              },
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"
+              },
+              {
+                "nodeId": "//newrelic_utils:donkey_logs_url_builder@bazel"
+              },
+              {
+                "nodeId": "//slack:main@bazel"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "//warehouses/common:warehouse_type@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "org.apache.commons:commons-lang3@3.12.0"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "//feature_flag:details@bazel",
+            "pkgId": "//feature_flag:details@bazel",
+            "deps": [
+              {
+                "nodeId": "//database:enums@bazel"
+              },
+              {
+                "nodeId": "//globals:main@bazel"
+              },
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"
+              },
+              {
+                "nodeId": "//warehouses/common:warehouse_type@bazel"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              }
+            ]
+          },
+          {
+            "nodeId": "//database:enums@bazel",
+            "pkgId": "//database:enums@bazel",
+            "deps": [
+              
+            ]
+          },
+          {
+            "nodeId": "com.google.code.findbugs:jsr305@3.0.2",
+            "pkgId": "com.google.code.findbugs:jsr305@3.0.2",
+            "deps": []
+          },
+          {
+            "nodeId": "//globals:main@bazel",
+            "pkgId": "//globals:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//lambda:main@bazel"
+              }
+            ]
+          },
+          {
+            "nodeId": "//lambda:main@bazel",
+            "pkgId": "//lambda:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//utils/exceptions:main@bazel"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              }
+            ]
+          },
+          {
+            "nodeId": "//utils/exceptions:main@bazel",
+            "pkgId": "//utils/exceptions:main@bazel",
+            "deps": []
+          },
+          {
+            "nodeId": "com.google.guava:guava@25.1-jre",
+            "pkgId": "com.google.guava:guava@25.1-jre",
+            "deps": [
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              {
+                "nodeId": "com.google.j2objc:j2objc-annotations@1.3"
+              },
+              
+              {
+                "nodeId": "org.checkerframework:checker-qual@3.22.0"
+              },
+              {
+                "nodeId": "org.codehaus.mojo:animal-sniffer-annotations@1.21"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1",
+            "pkgId": "com.google.errorprone:error_prone_annotations@2.13.1",
+            "deps": []
+          },
+          {
+            "nodeId": "com.google.j2objc:j2objc-annotations@1.3",
+            "pkgId": "com.google.j2objc:j2objc-annotations@1.3",
+            "deps": []
+          },
+          {
+            "nodeId": "org.checkerframework:checker-qual@3.22.0",
+            "pkgId": "org.checkerframework:checker-qual@3.22.0",
+            "deps": []
+          },
+          {
+            "nodeId": "org.codehaus.mojo:animal-sniffer-annotations@1.21",
+            "pkgId": "org.codehaus.mojo:animal-sniffer-annotations@1.21",
+            "deps": []
+          },
+          {
+            "nodeId": "//logger:fivetran_logger@bazel",
+            "pkgId": "//logger:fivetran_logger@bazel",
+            "deps": [
+              
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              }
+            ]
+          },
+          {
+            "nodeId": "//json:main@bazel",
+            "pkgId": "//json:main@bazel",
+            "deps": [
+              {
+                "nodeId": "@com_fasterxml_jackson_dataformat_jackson_dataformat_csv//:main@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.9.8"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              }
+            ]
+          },
+          {
+            "nodeId": "@com_fasterxml_jackson_dataformat_jackson_dataformat_csv//:main@bazel",
+            "pkgId": "@com_fasterxml_jackson_dataformat_jackson_dataformat_csv//:main@bazel",
+            "deps": []
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8",
+            "pkgId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8",
+            "deps": []
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8",
+            "pkgId": "com.fasterxml.jackson.core:jackson-core@2.9.8",
+            "deps": []
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8",
+            "pkgId": "com.fasterxml.jackson.core:jackson-databind@2.9.8",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.8",
+            "pkgId": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.8",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.9.8",
+            "pkgId": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.9.8",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "//utils/time:main@bazel",
+            "pkgId": "//utils/time:main@bazel",
+            "deps": [
+              
+            ]
+          },
+          {
+            "nodeId": "//warehouses/common:warehouse_type@bazel",
+            "pkgId": "//warehouses/common:warehouse_type@bazel",
+            "deps": []
+          },
+          {
+            "nodeId": "//crypto:main@bazel",
+            "pkgId": "//crypto:main@bazel",
+            "deps": [
+              
+              {
+                "nodeId": "//jwt:main@bazel"
+              },
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"
+              },
+              {
+                "nodeId": "//utils/exceptions:main@bazel"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "com.amazonaws:aws-encryption-sdk-java@1.6.1"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              {
+                "nodeId": "com.google.api:gax@2.3.0"
+              },
+              {
+                "nodeId": "com.google.api:gax-grpc@2.3.0"
+              },
+              {
+                "nodeId": "com.google.api.grpc:proto-google-cloud-kms-v1@0.61.0"
+              },
+              {
+                "nodeId": "com.google.auth:google-auth-library-credentials@0.9.1"
+              },
+              {
+                "nodeId": "com.google.auth:google-auth-library-oauth2-http@0.22.0"
+              },
+              {
+                "nodeId": "com.google.cloud:google-cloud-kms@1.13.0"
+              },
+              
+              {
+                "nodeId": "com.google.protobuf:protobuf-java@3.18.2"
+              },
+              {
+                "nodeId": "com.sun.xml.bind:jaxb-core@2.2.11"
+              },
+              {
+                "nodeId": "com.sun.xml.bind:jaxb-impl@2.2.11"
+              },
+              {
+                "nodeId": "commons-codec:commons-codec@1.10"
+              },
+              {
+                "nodeId": "io.grpc:grpc-core@1.32.2"
+              },
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "javax.xml.bind:jaxb-api@2.2.2"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "//jwt:main@bazel",
+            "pkgId": "//jwt:main@bazel",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              {
+                "nodeId": "commons-codec:commons-codec@1.10"
+              }
+            ]
+          },
+          {
+            "nodeId": "commons-codec:commons-codec@1.10",
+            "pkgId": "commons-codec:commons-codec@1.10",
+            "deps": []
+          },
+          {
+            "nodeId": "com.amazonaws:aws-encryption-sdk-java@1.6.1",
+            "pkgId": "com.amazonaws:aws-encryption-sdk-java@1.6.1",
+            "deps": [
+              {
+                "nodeId": "org.apache.commons:commons-lang3@3.12.0"
+              },
+              {
+                "nodeId": "org.bouncycastle:bcprov-ext-jdk15on@1.70"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.apache.commons:commons-lang3@3.12.0",
+            "pkgId": "org.apache.commons:commons-lang3@3.12.0",
+            "deps": []
+          },
+          {
+            "nodeId": "org.bouncycastle:bcprov-ext-jdk15on@1.70",
+            "pkgId": "org.bouncycastle:bcprov-ext-jdk15on@1.70",
+            "deps": []
+          },
+          {
+            "nodeId": "com.google.api:gax@2.3.0",
+            "pkgId": "com.google.api:gax@2.3.0",
+            "deps": [
+              
+              {
+                "nodeId": "com.google.auth:google-auth-library-oauth2-http@0.22.0"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "com.google.api:api-common@1.9.0"
+              },
+              {
+                "nodeId": "org.threeten:threetenbp@1.3.3"
+              },
+              {
+                "nodeId": "io.opencensus:opencensus-api@0.12.3"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.auth:google-auth-library-oauth2-http@0.22.0",
+            "pkgId": "com.google.auth:google-auth-library-oauth2-http@0.22.0",
+            "deps": [
+              {
+                "nodeId": "com.google.http-client:google-http-client@1.39.2"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "com.google.auto.value:auto-value-annotations@1.9"
+              },
+              {
+                "nodeId": "com.google.http-client:google-http-client-jackson2@1.35.0"
+              },
+              {
+                "nodeId": "com.google.auth:google-auth-library-credentials@0.9.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.http-client:google-http-client@1.39.2",
+            "pkgId": "com.google.http-client:google-http-client@1.39.2",
+            "deps": [
+              {
+                "nodeId": "com.google.j2objc:j2objc-annotations@1.3"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "org.apache.httpcomponents:httpcore@4.4.13"
+              },
+              {
+                "nodeId": "org.apache.httpcomponents:httpclient@4.5.13"
+              },
+              {
+                "nodeId": "io.opencensus:opencensus-contrib-http-util@0.11.1"
+              },
+              {
+                "nodeId": "io.opencensus:opencensus-api@0.12.3"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.apache.httpcomponents:httpcore@4.4.13",
+            "pkgId": "org.apache.httpcomponents:httpcore@4.4.13",
+            "deps": []
+          },
+          {
+            "nodeId": "org.apache.httpcomponents:httpclient@4.5.13",
+            "pkgId": "org.apache.httpcomponents:httpclient@4.5.13",
+            "deps": [
+              {
+                "nodeId": "commons-codec:commons-codec@1.10"
+              },
+              {
+                "nodeId": "commons-logging:commons-logging@1.2"
+              },
+              {
+                "nodeId": "org.apache.httpcomponents:httpcore@4.4.13"
+              }
+            ]
+          },
+          {
+            "nodeId": "commons-logging:commons-logging@1.2",
+            "pkgId": "commons-logging:commons-logging@1.2",
+            "deps": []
+          },
+          {
+            "nodeId": "io.opencensus:opencensus-contrib-http-util@0.11.1",
+            "pkgId": "io.opencensus:opencensus-contrib-http-util@0.11.1",
+            "deps": [
+              
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "io.opencensus:opencensus-api@0.12.3"
+              }
+            ]
+          },
+          {
+            "nodeId": "io.opencensus:opencensus-api@0.12.3",
+            "pkgId": "io.opencensus:opencensus-api@0.12.3",
+            "deps": [
+              
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "io.grpc:grpc-context@1.32.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "io.grpc:grpc-context@1.32.2",
+            "pkgId": "io.grpc:grpc-context@1.32.2",
+            "deps": []
+          },
+          {
+            "nodeId": "com.google.auto.value:auto-value-annotations@1.9",
+            "pkgId": "com.google.auto.value:auto-value-annotations@1.9",
+            "deps": []
+          },
+          {
+            "nodeId": "com.google.http-client:google-http-client-jackson2@1.35.0",
+            "pkgId": "com.google.http-client:google-http-client-jackson2@1.35.0",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.google.http-client:google-http-client@1.39.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.auth:google-auth-library-credentials@0.9.1",
+            "pkgId": "com.google.auth:google-auth-library-credentials@0.9.1",
+            "deps": []
+          },
+          {
+            "nodeId": "com.google.api:api-common@1.9.0",
+            "pkgId": "com.google.api:api-common@1.9.0",
+            "deps": [
+              {
+                "nodeId": "com.google.auto.value:auto-value-annotations@1.9"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "javax.annotation:javax.annotation-api@1.3.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "javax.annotation:javax.annotation-api@1.3.2",
+            "pkgId": "javax.annotation:javax.annotation-api@1.3.2",
+            "deps": []
+          },
+          {
+            "nodeId": "org.threeten:threetenbp@1.3.3",
+            "pkgId": "org.threeten:threetenbp@1.3.3",
+            "deps": []
+          },
+          {
+            "nodeId": "com.google.api:gax-grpc@2.3.0",
+            "pkgId": "com.google.api:gax-grpc@2.3.0",
+            "deps": [
+              {
+                "nodeId": "com.google.api:gax@2.3.0"
+              },
+              
+              {
+                "nodeId": "com.google.auth:google-auth-library-oauth2-http@0.22.0"
+              },
+              {
+                "nodeId": "io.grpc:grpc-stub@1.32.2"
+              },
+              {
+                "nodeId": "io.grpc:grpc-auth@1.32.2"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "com.google.api.grpc:proto-google-common-protos@1.15.0"
+              },
+              {
+                "nodeId": "io.grpc:grpc-alts@1.46.0"
+              },
+              {
+                "nodeId": "io.grpc:grpc-netty-shaded@1.32.2"
+              },
+              {
+                "nodeId": "com.google.api:api-common@1.9.0"
+              },
+              {
+                "nodeId": "org.threeten:threetenbp@1.3.3"
+              },
+              {
+                "nodeId": "com.google.auth:google-auth-library-credentials@0.9.1"
+              },
+              {
+                "nodeId": "io.grpc:grpc-protobuf@1.32.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "io.grpc:grpc-stub@1.32.2",
+            "pkgId": "io.grpc:grpc-stub@1.32.2",
+            "deps": [
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "io.grpc:grpc-api@1.32.2"
+              },
+              {
+                "nodeId": "org.codehaus.mojo:animal-sniffer-annotations@1.21"
+              }
+            ]
+          },
+          {
+            "nodeId": "io.grpc:grpc-api@1.32.2",
+            "pkgId": "io.grpc:grpc-api@1.32.2",
+            "deps": [
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "org.codehaus.mojo:animal-sniffer-annotations@1.21"
+              },
+              {
+                "nodeId": "io.grpc:grpc-context@1.32.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "io.grpc:grpc-auth@1.32.2",
+            "pkgId": "io.grpc:grpc-auth@1.32.2",
+            "deps": [
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "io.grpc:grpc-api@1.32.2"
+              },
+              {
+                "nodeId": "org.codehaus.mojo:animal-sniffer-annotations@1.21"
+              },
+              {
+                "nodeId": "com.google.auth:google-auth-library-credentials@0.9.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.api.grpc:proto-google-common-protos@1.15.0",
+            "pkgId": "com.google.api.grpc:proto-google-common-protos@1.15.0",
+            "deps": [
+              {
+                "nodeId": "com.google.protobuf:protobuf-java@3.18.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.protobuf:protobuf-java@3.18.2",
+            "pkgId": "com.google.protobuf:protobuf-java@3.18.2",
+            "deps": []
+          },
+          {
+            "nodeId": "io.grpc:grpc-alts@1.46.0",
+            "pkgId": "io.grpc:grpc-alts@1.46.0",
+            "deps": [
+              {
+                "nodeId": "org.conscrypt:conscrypt-openjdk-uber@2.5.1"
+              },
+              {
+                "nodeId": "com.google.auth:google-auth-library-oauth2-http@0.22.0"
+              },
+              {
+                "nodeId": "io.grpc:grpc-stub@1.32.2"
+              },
+              {
+                "nodeId": "io.grpc:grpc-auth@1.32.2"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "io.grpc:grpc-netty-shaded@1.32.2"
+              },
+              {
+                "nodeId": "io.grpc:grpc-grpclb@1.46.0"
+              },
+              {
+                "nodeId": "io.grpc:grpc-protobuf@1.32.2"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java@3.18.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.conscrypt:conscrypt-openjdk-uber@2.5.1",
+            "pkgId": "org.conscrypt:conscrypt-openjdk-uber@2.5.1",
+            "deps": []
+          },
+          {
+            "nodeId": "io.grpc:grpc-netty-shaded@1.32.2",
+            "pkgId": "io.grpc:grpc-netty-shaded@1.32.2",
+            "deps": [
+              {
+                "nodeId": "io.grpc:grpc-core@1.32.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "io.grpc:grpc-core@1.32.2",
+            "pkgId": "io.grpc:grpc-core@1.32.2",
+            "deps": [
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              
+              {
+                "nodeId": "com.google.android:annotations@4.1.1.4"
+              },
+              {
+                "nodeId": "com.google.code.gson:gson@2.9.0"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "io.grpc:grpc-api@1.32.2"
+              },
+              {
+                "nodeId": "org.codehaus.mojo:animal-sniffer-annotations@1.21"
+              },
+              {
+                "nodeId": "io.perfmark:perfmark-api@0.25.0"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.android:annotations@4.1.1.4",
+            "pkgId": "com.google.android:annotations@4.1.1.4",
+            "deps": []
+          },
+          {
+            "nodeId": "com.google.code.gson:gson@2.9.0",
+            "pkgId": "com.google.code.gson:gson@2.9.0",
+            "deps": []
+          },
+          {
+            "nodeId": "io.perfmark:perfmark-api@0.25.0",
+            "pkgId": "io.perfmark:perfmark-api@0.25.0",
+            "deps": []
+          },
+          {
+            "nodeId": "io.grpc:grpc-grpclb@1.46.0",
+            "pkgId": "io.grpc:grpc-grpclb@1.46.0",
+            "deps": [
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              {
+                "nodeId": "io.grpc:grpc-stub@1.32.2"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java-util@3.18.2"
+              },
+              {
+                "nodeId": "io.grpc:grpc-core@1.32.2"
+              },
+              {
+                "nodeId": "io.grpc:grpc-protobuf@1.32.2"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java@3.18.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.protobuf:protobuf-java-util@3.18.2",
+            "pkgId": "com.google.protobuf:protobuf-java-util@3.18.2",
+            "deps": [
+              {
+                "nodeId": "com.google.code.gson:gson@2.9.0"
+              },
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java@3.18.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "io.grpc:grpc-protobuf@1.32.2",
+            "pkgId": "io.grpc:grpc-protobuf@1.32.2",
+            "deps": [
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "com.google.api.grpc:proto-google-common-protos@1.15.0"
+              },
+              {
+                "nodeId": "io.grpc:grpc-api@1.32.2"
+              },
+              {
+                "nodeId": "org.codehaus.mojo:animal-sniffer-annotations@1.21"
+              },
+              {
+                "nodeId": "io.grpc:grpc-protobuf-lite@1.32.2"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java@3.18.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "io.grpc:grpc-protobuf-lite@1.32.2",
+            "pkgId": "io.grpc:grpc-protobuf-lite@1.32.2",
+            "deps": [
+              {
+                "nodeId": "com.google.errorprone:error_prone_annotations@2.13.1"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-javalite@3.12.0"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "io.grpc:grpc-api@1.32.2"
+              },
+              {
+                "nodeId": "org.codehaus.mojo:animal-sniffer-annotations@1.21"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.protobuf:protobuf-javalite@3.12.0",
+            "pkgId": "com.google.protobuf:protobuf-javalite@3.12.0",
+            "deps": []
+          },
+          {
+            "nodeId": "com.google.api.grpc:proto-google-cloud-kms-v1@0.61.0",
+            "pkgId": "com.google.api.grpc:proto-google-cloud-kms-v1@0.61.0",
+            "deps": [
+              {
+                "nodeId": "com.google.api.grpc:proto-google-common-protos@1.15.0"
+              },
+              {
+                "nodeId": "com.google.api:api-common@1.9.0"
+              },
+              {
+                "nodeId": "com.google.api.grpc:proto-google-iam-v1@0.13.0"
+              },
+              {
+                "nodeId": "javax.annotation:javax.annotation-api@1.3.2"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java@3.18.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.api.grpc:proto-google-iam-v1@0.13.0",
+            "pkgId": "com.google.api.grpc:proto-google-iam-v1@0.13.0",
+            "deps": [
+              {
+                "nodeId": "com.google.api:api-common@1.9.0"
+              },
+              {
+                "nodeId": "com.google.api.grpc:proto-google-common-protos@1.15.0"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java@3.18.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.cloud:google-cloud-kms@1.13.0",
+            "pkgId": "com.google.cloud:google-cloud-kms@1.13.0",
+            "deps": [
+              {
+                "nodeId": "io.grpc:grpc-stub@1.32.2"
+              },
+              {
+                "nodeId": "io.grpc:grpc-auth@1.32.2"
+              },
+              {
+                "nodeId": "com.google.cloud:google-cloud-core-grpc@1.19.0"
+              },
+              {
+                "nodeId": "com.google.api.grpc:proto-google-cloud-kms-v1@0.61.0"
+              },
+              {
+                "nodeId": "io.grpc:grpc-netty-shaded@1.32.2"
+              },
+              {
+                "nodeId": "com.google.cloud:google-cloud-core@1.48.0"
+              },
+              {
+                "nodeId": "javax.annotation:javax.annotation-api@1.3.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.cloud:google-cloud-core-grpc@1.19.0",
+            "pkgId": "com.google.cloud:google-cloud-core-grpc@1.19.0",
+            "deps": [
+              {
+                "nodeId": "io.grpc:grpc-stub@1.32.2"
+              },
+              {
+                "nodeId": "io.grpc:grpc-auth@1.32.2"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "io.grpc:grpc-netty-shaded@1.32.2"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java-util@3.18.2"
+              },
+              {
+                "nodeId": "com.google.cloud:google-cloud-core@1.48.0"
+              },
+              {
+                "nodeId": "com.google.api:gax-grpc@2.3.0"
+              },
+              {
+                "nodeId": "io.grpc:grpc-context@1.32.2"
+              },
+              {
+                "nodeId": "com.google.auth:google-auth-library-credentials@0.9.1"
+              },
+              {
+                "nodeId": "io.grpc:grpc-protobuf@1.32.2"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java@3.18.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.google.cloud:google-cloud-core@1.48.0",
+            "pkgId": "com.google.cloud:google-cloud-core@1.48.0",
+            "deps": [
+              {
+                "nodeId": "com.google.http-client:google-http-client@1.39.2"
+              },
+              {
+                "nodeId": "com.google.api:gax@2.3.0"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "com.google.api.grpc:proto-google-common-protos@1.15.0"
+              },
+              {
+                "nodeId": "com.google.protobuf:protobuf-java-util@3.18.2"
+              },
+              {
+                "nodeId": "com.google.api:api-common@1.9.0"
+              },
+              {
+                "nodeId": "com.google.api.grpc:proto-google-iam-v1@0.13.0"
+              },
+              {
+                "nodeId": "joda-time:joda-time@2.9.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "joda-time:joda-time@2.9.2",
+            "pkgId": "joda-time:joda-time@2.9.2",
+            "deps": []
+          },
+          {
+            "nodeId": "com.sun.xml.bind:jaxb-core@2.2.11",
+            "pkgId": "com.sun.xml.bind:jaxb-core@2.2.11",
+            "deps": []
+          },
+          {
+            "nodeId": "com.sun.xml.bind:jaxb-impl@2.2.11",
+            "pkgId": "com.sun.xml.bind:jaxb-impl@2.2.11",
+            "deps": []
+          },
+          {
+            "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6",
+            "pkgId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6",
+            "deps": []
+          },
+          {
+            "nodeId": "javax.xml.bind:jaxb-api@2.2.2",
+            "pkgId": "javax.xml.bind:jaxb-api@2.2.2",
+            "deps": [
+              {
+                "nodeId": "javax.activation:activation@1.1"
+              },
+              {
+                "nodeId": "javax.xml.stream:stax-api@1.0-2"
+              }
+            ]
+          },
+          {
+            "nodeId": "javax.activation:activation@1.1",
+            "pkgId": "javax.activation:activation@1.1",
+            "deps": []
+          },
+          {
+            "nodeId": "javax.xml.stream:stax-api@1.0-2",
+            "pkgId": "javax.xml.stream:stax-api@1.0-2",
+            "deps": []
+          },
+          {
+            "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1",
+            "pkgId": "org.glassfish.hk2.external:jakarta.inject@2.6.1",
+            "deps": []
+          },
+          {
+            "nodeId": "//database:flags@bazel",
+            "pkgId": "//database:flags@bazel",
+            "deps": [
+              {
+                "nodeId": "//database:postgresql_jdbc_fix@bazel"
+              },
+              {
+                "nodeId": "//api/db:api_production_datasource@bazel"
+              },
+              {
+                "nodeId": "//database:credential_models@bazel"
+              },
+              {
+                "nodeId": "//database:data_sources@bazel"
+              },
+              {
+                "nodeId": "//database:enums@bazel"
+              },
+              {
+                "nodeId": "//database/exceptions:main@bazel"
+              },
+              {
+                "nodeId": "//dockerized/postgres:main@bazel"
+              },
+              {
+                "nodeId": "//globals:main@bazel"
+              },
+              
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//logger:main@bazel"
+              },
+              {
+                "nodeId": "//secred/util:main@bazel"
+              },
+              {
+                "nodeId": "//secrets/services:main@bazel"
+              },
+              {
+                "nodeId": "//util:main@bazel"
+              },
+              {
+                "nodeId": "//utils/exceptions:main@bazel"
+              },
+              {
+                "nodeId": "//utils/nullability:main@bazel"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              },
+              {
+                "nodeId": "org.postgresql:postgresql@42.3.3"
+              }
+            ]
+          },
+          {
+            "nodeId": "//database:postgresql_jdbc_fix@bazel",
+            "pkgId": "//database:postgresql_jdbc_fix@bazel",
+            "deps": [
+              {
+                "nodeId": "//utils/exceptions:main@bazel"
+              },
+              {
+                "nodeId": "org.postgresql:postgresql@42.3.3"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.postgresql:postgresql@42.3.3",
+            "pkgId": "org.postgresql:postgresql@42.3.3",
+            "deps": [
+              {
+                "nodeId": "org.checkerframework:checker-qual@3.22.0"
+              }
+            ]
+          },
+          {
+            "nodeId": "//api/db:api_production_datasource@bazel",
+            "pkgId": "//api/db:api_production_datasource@bazel",
+            "deps": [
+              {
+                "nodeId": "//logger:main@bazel"
+              },
+              {
+                "nodeId": "com.zaxxer:HikariCP@3.4.1"
+              },
+              {
+                "nodeId": "commons-io:commons-io@2.4"
+              },
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.slf4j:slf4j-api@1.7.13"
+              }
+            ]
+          },
+          {
+            "nodeId": "//logger:main@bazel",
+            "pkgId": "//logger:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//crypto:main@bazel"
+              },
+              {
+                "nodeId": "//database:enums@bazel"
+              },
+              {
+                "nodeId": "//feature_flag:details@bazel"
+              },
+              
+              {
+                "nodeId": "//secred/client:main@bazel"
+              },
+              {
+                "nodeId": "//secred/common:main@bazel"
+              },
+              {
+                "nodeId": "//secred/util:main@bazel"
+              },
+              {
+                "nodeId": "//secrets/common:main@bazel"
+              },
+              {
+                "nodeId": "//secrets/services:main@bazel"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.json:json@20171018"
+              }
+            ]
+          },
+          {
+            "nodeId": "//secred/client:main@bazel",
+            "pkgId": "//secred/client:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//crypto:pojos@bazel"
+              },
+              {
+                "nodeId": "//database:enums@bazel"
+              },
+              {
+                "nodeId": "//globals:main@bazel"
+              },
+              
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"
+              },
+              {
+                "nodeId": "//secred/common:main@bazel"
+              },
+              {
+                "nodeId": "//secrets/common:main@bazel"
+              },
+              {
+                "nodeId": "//util:main@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.9.8"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "commons-configuration:commons-configuration@1.10"
+              },
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.connectors:jersey-apache-connector@2.31"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-client@2.31"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-common@2.31"
+              }
+            ]
+          },
+          {
+            "nodeId": "//crypto:pojos@bazel",
+            "pkgId": "//crypto:pojos@bazel",
+            "deps": []
+          },
+          {
+            "nodeId": "//secred/common:main@bazel",
+            "pkgId": "//secred/common:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//crypto:pojos@bazel"
+              },
+              {
+                "nodeId": "//secrets/common:main@bazel"
+              },
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-core@1.12.84"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "commons-codec:commons-codec@1.10"
+              }
+            ]
+          },
+          {
+            "nodeId": "//secrets/common:main@bazel",
+            "pkgId": "//secrets/common:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//crypto:main@bazel"
+              },
+              
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.apache.commons:commons-lang3@3.12.0"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.amazonaws:aws-java-sdk-core@1.12.84",
+            "pkgId": "com.amazonaws:aws-java-sdk-core@1.12.84",
+            "deps": [
+              {
+                "nodeId": "commons-logging:commons-logging@1.2"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.9.8"
+              },
+              {
+                "nodeId": "software.amazon.ion:ion-java@1.0.2"
+              },
+              {
+                "nodeId": "commons-codec:commons-codec@1.10"
+              },
+              {
+                "nodeId": "org.apache.httpcomponents:httpclient@4.5.13"
+              },
+              {
+                "nodeId": "joda-time:joda-time@2.9.2"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.9.8",
+            "pkgId": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.9.8",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "software.amazon.ion:ion-java@1.0.2",
+            "pkgId": "software.amazon.ion:ion-java@1.0.2",
+            "deps": []
+          },
+          {
+            "nodeId": "//util:main@bazel",
+            "pkgId": "//util:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//globals:main@bazel"
+              },
+              
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"
+              },
+              {
+                "nodeId": "@com_fasterxml_jackson_dataformat_jackson_dataformat_csv//:main@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.9.8"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "com.intellij:annotations@12.0"
+              },
+              {
+                "nodeId": "commons-codec:commons-codec@1.10"
+              },
+              {
+                "nodeId": "io.netty:netty-buffer@4.1.50.Final"
+              },
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "javax.xml.bind:jaxb-api@2.2.2"
+              },
+              {
+                "nodeId": "javax.xml.soap:javax.xml.soap-api@1.4.0"
+              },
+              {
+                "nodeId": "org.bouncycastle:bcpkix-jdk15on@1.70"
+              },
+              {
+                "nodeId": "org.bouncycastle:bcprov-jdk15to18@1.70"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-client@2.31"
+              },
+              {
+                "nodeId": "org.jooq:jool-java-8@0.9.14"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.9.8",
+            "pkgId": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.9.8",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "org.yaml:snakeyaml@1.23"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.yaml:snakeyaml@1.23",
+            "pkgId": "org.yaml:snakeyaml@1.23",
+            "deps": []
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.9.8",
+            "pkgId": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.9.8",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.9.8",
+            "pkgId": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.9.8",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.8",
+            "pkgId": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.8",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.intellij:annotations@12.0",
+            "pkgId": "com.intellij:annotations@12.0",
+            "deps": []
+          },
+          {
+            "nodeId": "io.netty:netty-buffer@4.1.50.Final",
+            "pkgId": "io.netty:netty-buffer@4.1.50.Final",
+            "deps": [
+              {
+                "nodeId": "io.netty:netty-common@4.1.45.Final"
+              }
+            ]
+          },
+          {
+            "nodeId": "io.netty:netty-common@4.1.45.Final",
+            "pkgId": "io.netty:netty-common@4.1.45.Final",
+            "deps": []
+          },
+          {
+            "nodeId": "javax.xml.soap:javax.xml.soap-api@1.4.0",
+            "pkgId": "javax.xml.soap:javax.xml.soap-api@1.4.0",
+            "deps": []
+          },
+          {
+            "nodeId": "org.bouncycastle:bcpkix-jdk15on@1.70",
+            "pkgId": "org.bouncycastle:bcpkix-jdk15on@1.70",
+            "deps": [
+              {
+                "nodeId": "org.bouncycastle:bcprov-jdk15on@1.70"
+              },
+              {
+                "nodeId": "org.bouncycastle:bcutil-jdk15on:jar@1.70"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.bouncycastle:bcprov-jdk15on@1.70",
+            "pkgId": "org.bouncycastle:bcprov-jdk15on@1.70",
+            "deps": []
+          },
+          {
+            "nodeId": "org.bouncycastle:bcutil-jdk15on:jar@1.70",
+            "pkgId": "org.bouncycastle:bcutil-jdk15on:jar@1.70",
+            "deps": [
+              {
+                "nodeId": "org.bouncycastle:bcprov-jdk15on@1.70"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.bouncycastle:bcprov-jdk15to18@1.70",
+            "pkgId": "org.bouncycastle:bcprov-jdk15to18@1.70",
+            "deps": []
+          },
+          {
+            "nodeId": "org.glassfish.jersey.core:jersey-client@2.31",
+            "pkgId": "org.glassfish.jersey.core:jersey-client@2.31",
+            "deps": [
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-common@2.31"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.glassfish.jersey.core:jersey-common@2.31",
+            "pkgId": "org.glassfish.jersey.core:jersey-common@2.31",
+            "deps": [
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.hk2:osgi-resource-locator@1.0.3"
+              },
+              {
+                "nodeId": "jakarta.annotation:jakarta.annotation-api@1.3.5"
+              },
+              {
+                "nodeId": "com.sun.activation:jakarta.activation@2.0.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.glassfish.hk2:osgi-resource-locator@1.0.3",
+            "pkgId": "org.glassfish.hk2:osgi-resource-locator@1.0.3",
+            "deps": []
+          },
+          {
+            "nodeId": "jakarta.annotation:jakarta.annotation-api@1.3.5",
+            "pkgId": "jakarta.annotation:jakarta.annotation-api@1.3.5",
+            "deps": []
+          },
+          {
+            "nodeId": "com.sun.activation:jakarta.activation@2.0.1",
+            "pkgId": "com.sun.activation:jakarta.activation@2.0.1",
+            "deps": []
+          },
+          {
+            "nodeId": "org.jooq:jool-java-8@0.9.14",
+            "pkgId": "org.jooq:jool-java-8@0.9.14",
+            "deps": []
+          },
+          {
+            "nodeId": "commons-configuration:commons-configuration@1.10",
+            "pkgId": "commons-configuration:commons-configuration@1.10",
+            "deps": [
+              {
+                "nodeId": "commons-lang:commons-lang@2.6"
+              },
+              {
+                "nodeId": "commons-logging:commons-logging@1.2"
+              }
+            ]
+          },
+          {
+            "nodeId": "commons-lang:commons-lang@2.6",
+            "pkgId": "commons-lang:commons-lang@2.6",
+            "deps": []
+          },
+          {
+            "nodeId": "org.glassfish.jersey.connectors:jersey-apache-connector@2.31",
+            "pkgId": "org.glassfish.jersey.connectors:jersey-apache-connector@2.31",
+            "deps": [
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.apache.httpcomponents:httpclient@4.5.13"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-client@2.31"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-common@2.31"
+              }
+            ]
+          },
+          {
+            "nodeId": "//secred/util:main@bazel",
+            "pkgId": "//secred/util:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//crypto:pojos@bazel"
+              },
+              {
+                "nodeId": "//database:credential_models@bazel"
+              },
+              {
+                "nodeId": "//globals:main@bazel"
+              },
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"
+              },
+              {
+                "nodeId": "//secred/client:main@bazel"
+              },
+              {
+                "nodeId": "//secred/common:main@bazel"
+              },
+              {
+                "nodeId": "//secrets/common:main@bazel"
+              },
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              }
+            ]
+          },
+          {
+            "nodeId": "//database:credential_models@bazel",
+            "pkgId": "//database:credential_models@bazel",
+            "deps": [
+              
+              {
+                "nodeId": "org.apache.commons:commons-lang3@3.12.0"
+              }
+            ]
+          },
+          {
+            "nodeId": "//secrets/services:main@bazel",
+            "pkgId": "//secrets/services:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//crypto:pojos@bazel"
+              },
+              
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"
+              },
+              {
+                "nodeId": "//secred/client:main@bazel"
+              },
+              {
+                "nodeId": "//secred/common:main@bazel"
+              },
+              {
+                "nodeId": "//secred/util:main@bazel"
+              },
+              {
+                "nodeId": "//secrets/common:main@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.json:json@20171018",
+            "pkgId": "org.json:json@20171018",
+            "deps": []
+          },
+          {
+            "nodeId": "com.zaxxer:HikariCP@3.4.1",
+            "pkgId": "com.zaxxer:HikariCP@3.4.1",
+            "deps": [
+              {
+                "nodeId": "org.slf4j:slf4j-api@1.7.13"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.slf4j:slf4j-api@1.7.13",
+            "pkgId": "org.slf4j:slf4j-api@1.7.13",
+            "deps": []
+          },
+          {
+            "nodeId": "commons-io:commons-io@2.4",
+            "pkgId": "commons-io:commons-io@2.4",
+            "deps": []
+          },
+          {
+            "nodeId": "//database:data_sources@bazel",
+            "pkgId": "//database:data_sources@bazel",
+            "deps": [
+              {
+                "nodeId": "com.mchange:c3p0@0.9.5.1"
+              },
+              {
+                "nodeId": "com.zaxxer:HikariCP@3.4.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.mchange:c3p0@0.9.5.1",
+            "pkgId": "com.mchange:c3p0@0.9.5.1",
+            "deps": [
+              {
+                "nodeId": "com.mchange:mchange-commons-java@0.2.10"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.mchange:mchange-commons-java@0.2.10",
+            "pkgId": "com.mchange:mchange-commons-java@0.2.10",
+            "deps": []
+          },
+          {
+            "nodeId": "//database/exceptions:main@bazel",
+            "pkgId": "//database/exceptions:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//utils/nullability:main@bazel"
+              },
+              
+              {
+                "nodeId": "com.mchange:c3p0@0.9.5.1"
+              },
+              {
+                "nodeId": "org.postgresql:postgresql@42.3.3"
+              }
+            ]
+          },
+          {
+            "nodeId": "//utils/nullability:main@bazel",
+            "pkgId": "//utils/nullability:main@bazel",
+            "deps": [
+            ]
+          },
+          {
+            "nodeId": "//dockerized/postgres:main@bazel",
+            "pkgId": "//dockerized/postgres:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//database:credential_models@bazel"
+              },
+              {
+                "nodeId": "//database:postgresql_jdbc_fix@bazel"
+              },
+              {
+                "nodeId": "//dockerized/common:main@bazel"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "org.postgresql:postgresql@42.3.3"
+              }
+            ]
+          },
+          {
+            "nodeId": "//dockerized/common:main@bazel",
+            "pkgId": "//dockerized/common:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//logger:main@bazel"
+              },
+              {
+                "nodeId": "//metal:main@bazel"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              }
+            ]
+          },
+          {
+            "nodeId": "//metal:main@bazel",
+            "pkgId": "//metal:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-core@1.12.84"
+              },
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-logs@1.12.84"
+              },
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-resourcegroupstaggingapi@1.12.84"
+              },
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-s3@1.12.84"
+              },
+              
+              {
+                "nodeId": "com.google.code.gson:gson@2.9.0"
+              },
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "commons-io:commons-io@2.4"
+              },
+              {
+                "nodeId": "org.apache.commons:commons-lang3@3.12.0"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.amazonaws:aws-java-sdk-logs@1.12.84",
+            "pkgId": "com.amazonaws:aws-java-sdk-logs@1.12.84",
+            "deps": [
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-core@1.12.84"
+              },
+              {
+                "nodeId": "com.amazonaws:jmespath-java@1.11.91"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.amazonaws:jmespath-java@1.11.91",
+            "pkgId": "com.amazonaws:jmespath-java@1.11.91",
+            "deps": [
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.amazonaws:aws-java-sdk-resourcegroupstaggingapi@1.12.84",
+            "pkgId": "com.amazonaws:aws-java-sdk-resourcegroupstaggingapi@1.12.84",
+            "deps": [
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-core@1.12.84"
+              },
+              {
+                "nodeId": "com.amazonaws:jmespath-java@1.11.91"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.amazonaws:aws-java-sdk-s3@1.12.84",
+            "pkgId": "com.amazonaws:aws-java-sdk-s3@1.12.84",
+            "deps": [
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-core@1.12.84"
+              },
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-kms@1.12.84"
+              },
+              {
+                "nodeId": "com.amazonaws:jmespath-java@1.11.91"
+              }
+            ]
+          },
+          {
+            "nodeId": "com.amazonaws:aws-java-sdk-kms@1.12.84",
+            "pkgId": "com.amazonaws:aws-java-sdk-kms@1.12.84",
+            "deps": [
+              {
+                "nodeId": "com.amazonaws:aws-java-sdk-core@1.12.84"
+              },
+              {
+                "nodeId": "com.amazonaws:jmespath-java@1.11.91"
+              }
+            ]
+          },
+          {
+            "nodeId": "//newrelic_utils:donkey_logs_url_builder@bazel",
+            "pkgId": "//newrelic_utils:donkey_logs_url_builder@bazel",
+            "deps": [
+              
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              }
+            ]
+          },
+          {
+            "nodeId": "//slack:main@bazel",
+            "pkgId": "//slack:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//globals:main@bazel"
+              },
+              {
+                "nodeId": "//http:main@bazel"
+              },
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-client@2.31"
+              }
+            ]
+          },
+          {
+            "nodeId": "//http:main@bazel",
+            "pkgId": "//http:main@bazel",
+            "deps": [
+              {
+                "nodeId": "//globals:main@bazel"
+              },
+              
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//logger:main@bazel"
+              },
+              {
+                "nodeId": "//secrets/common:main@bazel"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-annotations@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-core@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.core:jackson-databind@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.9.8"
+              },
+              {
+                "nodeId": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.9.8"
+              },
+              
+              {
+                "nodeId": "commons-codec:commons-codec@1.10"
+              },
+              {
+                "nodeId": "commons-io:commons-io@2.4"
+              },
+              {
+                "nodeId": "jakarta.annotation:jakarta.annotation-api@1.3.5"
+              },
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "javax.servlet:javax.servlet-api@3.1.0"
+              },
+              {
+                "nodeId": "org.apache.httpcomponents:httpclient@4.5.13"
+              },
+              {
+                "nodeId": "org.eclipse.jetty:jetty-server@9.4.40.v20210413"
+              },
+              {
+                "nodeId": "org.eclipse.jetty:jetty-util@9.4.40.v20210413"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.hk2:hk2-api@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-common@2.31"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-server@2.31"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.inject:jersey-hk2@2.31"
+              }
+            ]
+          },
+          {
+            "nodeId": "javax.servlet:javax.servlet-api@3.1.0",
+            "pkgId": "javax.servlet:javax.servlet-api@3.1.0",
+            "deps": []
+          },
+          {
+            "nodeId": "org.eclipse.jetty:jetty-server@9.4.40.v20210413",
+            "pkgId": "org.eclipse.jetty:jetty-server@9.4.40.v20210413",
+            "deps": [
+              {
+                "nodeId": "javax.servlet:javax.servlet-api@3.1.0"
+              },
+              {
+                "nodeId": "org.eclipse.jetty:jetty-http@9.4.40.v20210413"
+              },
+              {
+                "nodeId": "org.eclipse.jetty:jetty-io@9.4.40.v20210413"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.eclipse.jetty:jetty-http@9.4.40.v20210413",
+            "pkgId": "org.eclipse.jetty:jetty-http@9.4.40.v20210413",
+            "deps": [
+              {
+                "nodeId": "org.eclipse.jetty:jetty-io@9.4.40.v20210413"
+              },
+              {
+                "nodeId": "org.eclipse.jetty:jetty-util@9.4.40.v20210413"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.eclipse.jetty:jetty-io@9.4.40.v20210413",
+            "pkgId": "org.eclipse.jetty:jetty-io@9.4.40.v20210413",
+            "deps": [
+              {
+                "nodeId": "org.eclipse.jetty:jetty-util@9.4.40.v20210413"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.eclipse.jetty:jetty-util@9.4.40.v20210413",
+            "pkgId": "org.eclipse.jetty:jetty-util@9.4.40.v20210413",
+            "deps": []
+          },
+          {
+            "nodeId": "org.glassfish.hk2:hk2-api@2.6.1",
+            "pkgId": "org.glassfish.hk2:hk2-api@2.6.1",
+            "deps": [
+              {
+                "nodeId": "org.glassfish.hk2:hk2-utils@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:aopalliance-repackaged@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.glassfish.hk2:hk2-utils@2.6.1",
+            "pkgId": "org.glassfish.hk2:hk2-utils@2.6.1",
+            "deps": [
+              {
+                "nodeId": "jakarta.annotation:jakarta.annotation-api@1.3.5"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.glassfish.hk2.external:aopalliance-repackaged@2.6.1",
+            "pkgId": "org.glassfish.hk2.external:aopalliance-repackaged@2.6.1",
+            "deps": []
+          },
+          {
+            "nodeId": "org.glassfish.jersey.core:jersey-server@2.31",
+            "pkgId": "org.glassfish.jersey.core:jersey-server@2.31",
+            "deps": [
+              {
+                "nodeId": "jakarta.ws.rs:jakarta.ws.rs-api@2.1.6"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.media:jersey-media-jaxb@2.31"
+              },
+              {
+                "nodeId": "jakarta.annotation:jakarta.annotation-api@1.3.5"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-client@2.31"
+              },
+              {
+                "nodeId": "jakarta.validation:jakarta.validation-api@2.0.2"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-common@2.31"
+              },
+              {
+                "nodeId": "jakarta.xml.bind:jakarta.xml.bind-api@3.0.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.glassfish.jersey.media:jersey-media-jaxb@2.31",
+            "pkgId": "org.glassfish.jersey.media:jersey-media-jaxb@2.31",
+            "deps": [
+              {
+                "nodeId": "org.glassfish.hk2:osgi-resource-locator@1.0.3"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-common@2.31"
+              }
+            ]
+          },
+          {
+            "nodeId": "jakarta.validation:jakarta.validation-api@2.0.2",
+            "pkgId": "jakarta.validation:jakarta.validation-api@2.0.2",
+            "deps": []
+          },
+          {
+            "nodeId": "jakarta.xml.bind:jakarta.xml.bind-api@3.0.1",
+            "pkgId": "jakarta.xml.bind:jakarta.xml.bind-api@3.0.1",
+            "deps": [
+              {
+                "nodeId": "com.sun.activation:jakarta.activation@2.0.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.glassfish.jersey.inject:jersey-hk2@2.31",
+            "pkgId": "org.glassfish.jersey.inject:jersey-hk2@2.31",
+            "deps": [
+              {
+                "nodeId": "org.glassfish.hk2:hk2-locator@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.jersey.core:jersey-common@2.31"
+              },
+              {
+                "nodeId": "org.javassist:javassist@3.21.0-GA"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.glassfish.hk2:hk2-locator@2.6.1",
+            "pkgId": "org.glassfish.hk2:hk2-locator@2.6.1",
+            "deps": [
+              {
+                "nodeId": "org.glassfish.hk2.external:jakarta.inject@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.hk2.external:aopalliance-repackaged@2.6.1"
+              },
+              {
+                "nodeId": "org.glassfish.hk2:hk2-utils@2.6.1"
+              },
+              {
+                "nodeId": "jakarta.annotation:jakarta.annotation-api@1.3.5"
+              },
+              {
+                "nodeId": "org.javassist:javassist@3.21.0-GA"
+              },
+              {
+                "nodeId": "org.glassfish.hk2:hk2-api@2.6.1"
+              }
+            ]
+          },
+          {
+            "nodeId": "org.javassist:javassist@3.21.0-GA",
+            "pkgId": "org.javassist:javassist@3.21.0-GA",
+            "deps": []
+          },
+          {
+            "nodeId": "meta-common-packages@meta",
+            "pkgId": "meta-common-packages@meta",
+            "deps": [
+              
+              {
+                "nodeId": "com.google.guava:guava@25.1-jre"
+              },
+              {
+                "nodeId": "//utils/time:main@bazel"
+              },
+              {
+                "nodeId": "//lambda:main@bazel"
+              },
+              {
+                "nodeId": "//logger:fivetran_logger@bazel"  
+              },
+              {
+                "nodeId": "//util:main@bazel" 
+              },
+              {
+                "nodeId": "//json:main@bazel" 
+              },
+              {
+                "nodeId": "com.google.code.findbugs:jsr305@3.0.2"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
